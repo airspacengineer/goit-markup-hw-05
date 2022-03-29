@@ -105,6 +105,9 @@ img {
   display: inline-block;
   margin-right: 10px;
   fill: var(--secondary-text-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .envelope {
@@ -408,6 +411,9 @@ h3 {
 }
 .team-icon {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover .team-icon,
 .team-link:focus .team-icon {
